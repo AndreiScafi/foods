@@ -63,7 +63,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10rem 0;
+    padding: 20rem 0;
 }
 
 .cards-container {
