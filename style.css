@@ -202,6 +202,7 @@ html {
     height: 15vw;
     object-fit: cover;
     box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946, 0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem #e92999;
+    transition: all .3s;
 }
 
 .gallery-link:hover .food-img {
@@ -228,7 +229,7 @@ html {
 
 .gallery-link:hover .food-name {
     width: 100%;
-    transition: width 1.5s .5s;
+    transition: width 1.5s .3s;
 }
 
 .food-description {
@@ -249,7 +250,7 @@ html {
 .gallery-link:hover .food-description {
     opacity: 1;
     visibility: visible;
-    transition: opacity 1s 1s;
+    transition: opacity .5s .5s;
 }
 
 /* End of Section 3 */
